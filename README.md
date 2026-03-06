@@ -25,7 +25,7 @@ Open `index.html` in a browser, or deploy to any static hosting (GitHub Pages, V
 |-------|-----------|
 | Markup | HTML5 |
 | Styling | CSS3 (custom properties, grid, flexbox) |
-| Scripting | Vanilla JavaScript (ES6+) |
+| Scripting | JavaScript |
 | Email | [EmailJS](https://www.emailjs.com/) |
 | Icons | [Font Awesome 6](https://fontawesome.com/) · [Devicons](https://devicons.dev/) |
 | Fonts | Google Fonts — Inter, Poppins |
