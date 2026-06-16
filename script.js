@@ -1,4 +1,4 @@
-/* ===== CONTACT FORM ===== */
+﻿/* ===== CONTACT FORM ===== */
 (function () {
   emailjs.init({ publicKey: EMAILJS_CONFIG.publicKey });
 
@@ -11,7 +11,7 @@
     const btn = form.querySelector('.contact-form__btn');
     const originalHTML = btn.innerHTML;
     btn.disabled = true;
-    btn.innerHTML = '<i class="fa-solid fa-circle-notch fa-spin"></i> Sending…';
+    btn.innerHTML = '<i class="fa-solid fa-circle-notch fa-spin"></i> Sending...';
 
     try {
       await emailjs.sendForm(EMAILJS_CONFIG.serviceId, EMAILJS_CONFIG.templateId, form);
@@ -95,3 +95,4 @@ document.addEventListener('keydown', e => {
     document.body.style.overflow = '';
   }
 });
+
